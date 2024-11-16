@@ -9,7 +9,7 @@ const ProductDetailPage = React.lazy(() => import('./pages/ProductDetailPage'));
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>  {/* Add basename here */}
       <div className="min-h-screen bg-white">
         <Toaster position="top-center" />
         <Navigation />

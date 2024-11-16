@@ -62,6 +62,7 @@ export const useStore = create<StoreState>((set) => ({
       const validCoupons: Record<string, number> = {
         'WELCOME20': 20,
         'SUMMER30': 30,
+        'SURYA50': 50,
       };
       
       return {
